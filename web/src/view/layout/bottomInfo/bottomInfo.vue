@@ -14,8 +14,8 @@
     <span>
       <a
         class="text-gray-800 font-bold"
-        href="https://github.com/flipped-aurora"
-      >flipped-aurora团队</a>
+        href="https://github.com/bryant-ba"
+      >毕业设计</a>
     </span>
   </div>
 </template>
@@ -28,7 +28,7 @@ defineOptions({
 })
 
 console.log(
-  `%c powered by %c flipped-aurorae %c`,
+  `%c powered by %c bb %c`,
   'background:#0081ff; padding: 1px; border-radius: 3px 0 0 3px; color: #fff',
   'background:#354855; padding: 1px 5px; border-radius: 0 3px 3px 0; color: #fff; font-weight: bold;',
   'background:transparent'
