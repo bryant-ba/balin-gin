@@ -16,7 +16,7 @@
             target="_blank"
           >官方文档</a> <a
             class="text-blue-600 font-bold"
-            href="https://www.bilibili.com/video/BV1kv4y1g7nT?p=2"
+            href="www.google.com"
             target="_blank"
           >初始化视频</a></p>
           <p class="text-gray-600 mb-2">3.请您确认是否了解后续的配置流程</p>
@@ -182,7 +182,7 @@ const showNext = () => {
 }
 
 const goDoc = () => {
-  window.open('https://www.gin-vue-admin.com/guide/start-quickly/env.html')
+  window.open('www.google.com')
 }
 
 const out = ref(false)

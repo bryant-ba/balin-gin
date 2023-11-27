@@ -3,7 +3,7 @@
     <div class="gva-card-box">
       <div class="gva-card gva-top-card">
         <div class="gva-top-card-left">
-          <div class="gva-top-card-left-title">早安，管理员，请开始一天的工作吧</div>
+          <div class="gva-top-card-left-title">你好，管理员</div>
           <div class="gva-top-card-left-dot">{{ weatherInfo }}</div>
           <el-row class="my-8 w-[500px]">
             <el-col
@@ -15,7 +15,7 @@
                 <el-icon class="dashboard-icon">
                   <sort />
                 </el-icon>
-                今日流量 (1231231)
+                今日流量 (1)
               </div>
             </el-col>
             <el-col
@@ -27,7 +27,7 @@
                 <el-icon class="dashboard-icon">
                   <avatar />
                 </el-icon>
-                总用户数 (24001)
+                总用户数 (1)
               </div>
             </el-col>
             <el-col
@@ -39,7 +39,7 @@
                 <el-icon class="dashboard-icon">
                   <comment />
                 </el-icon>
-                好评率 (99%)
+                好评率 (100%)
               </div>
             </el-col>
           </el-row>
@@ -49,16 +49,16 @@
               <a
                 style="color:#409EFF"
                 target="view_window"
-                href="https://www.bilibili.com/video/BV1Rg411u7xH/"
-              >https://www.bilibili.com/video/BV1Rg411u7xH</a>
+                href="aa"
+              >aa</a>
             </div>
             <div class="gva-top-card-left-item">
               插件仓库：
               <a
                 style="color:#409EFF"
                 target="view_window"
-                href="https://plugin.gin-vue-admin.com/#/layout/home"
-              >https://plugin.gin-vue-admin.com</a>
+                href="aa"
+              >aa</a>
             </div>
           </div>
         </div>

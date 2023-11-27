@@ -127,7 +127,7 @@
           >
         </a>
         <a
-          href="https://github.com/flipped-aurora/gin-vue-admin"
+          href="https://github.com/bryant-ba/gin-vue-admin"
           target="_blank"
         >
           <img
@@ -137,13 +137,13 @@
           >
         </a>
         <a
-          href="https://space.bilibili.com/322210472"
+          href="www.google.com"
           target="_blank"
         >
           <img
             src="@/assets/video.png"
             class="w-8 h-8"
-            alt="视频站"
+            alt="kk"
           >
         </a>
       </div>

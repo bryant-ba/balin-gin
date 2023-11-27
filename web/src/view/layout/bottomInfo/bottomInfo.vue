@@ -6,7 +6,7 @@
     <span>
       <a
         class="text-gray-800 font-bold"
-        href="https://github.com/flipped-aurora/gin-vue-admin"
+        href="https://github.com/bryant-ba/gin-vue-admin"
       >Gin-Vue-Admin</a>
     </span>
     <slot />

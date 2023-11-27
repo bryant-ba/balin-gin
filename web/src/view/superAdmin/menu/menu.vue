@@ -9,7 +9,7 @@
         >新增根菜单</el-button>
         <el-icon
           class="cursor-pointer"
-          @click="toDoc('https://www.bilibili.com/video/BV1kv4y1g7nT/?p=4&vd_source=f2640257c21e3b547a790461ed94875e')"
+          @click="toDoc('aahh')"
         ><VideoCameraFilled /></el-icon>
       </div>
 
@@ -351,7 +351,7 @@
           >新增菜单参数</el-button>
           <el-icon
             class="cursor-pointer"
-            @click="toDoc('https://www.bilibili.com/video/BV1kv4y1g7nT?p=9&vd_source=f2640257c21e3b547a790461ed94875e')"
+            @click="toDoc('www.google.com')"
           ><VideoCameraFilled /></el-icon>
         </div>
         <el-table
@@ -432,7 +432,7 @@
           ><QuestionFilled /></el-icon>
           <el-icon
             class="cursor-pointer"
-            @click="toDoc('https://www.bilibili.com/video/BV1kv4y1g7nT?p=11&vd_source=f2640257c21e3b547a790461ed94875e')"
+            @click="toDoc('yyy')"
           ><VideoCameraFilled /></el-icon>
         </div>
 
