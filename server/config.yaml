@@ -8,7 +8,7 @@ jwt:
   issuer: qmPlus
 # zap logger configuration
 zap:
-  level: info
+  level: debug
   format: console
   prefix: "[github.com/flipped-aurora/gin-vue-admin/server]"
   director: log

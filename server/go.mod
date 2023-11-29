@@ -3,6 +3,7 @@ module github.com/flipped-aurora/gin-vue-admin/server
 go 1.18
 
 require (
+	github.com/aliyun/alibaba-cloud-sdk-go v1.62.619
 	github.com/aliyun/aliyun-oss-go-sdk v2.2.7+incompatible
 	github.com/aws/aws-sdk-go v1.44.307
 	github.com/casbin/casbin/v2 v2.71.1
@@ -17,6 +18,7 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/gookit/color v1.5.4
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.21.8+incompatible
+	github.com/huaweicloud/huaweicloud-sdk-go-v3 v0.1.69
 	github.com/jordan-wright/email v0.0.0-20200824153738-3f5bafa1cd84
 	github.com/mojocn/base64Captcha v1.3.5
 	github.com/otiai10/copy v1.7.0
@@ -33,6 +35,10 @@ require (
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/swaggo/swag v1.16.1
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cdb v1.0.806
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/clb v1.0.806
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.806
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cvm v1.0.806
 	github.com/tencentyun/cos-go-sdk-v5 v0.7.42
 	github.com/unrolled/secure v1.13.0
 	go.mongodb.org/mongo-driver v1.12.1
@@ -40,7 +46,6 @@ require (
 	golang.org/x/crypto v0.10.0
 	golang.org/x/sync v0.3.0
 	golang.org/x/text v0.11.0
-	gorm.io/datatypes v1.2.0
 	gorm.io/driver/mysql v1.5.1
 	gorm.io/driver/postgres v1.5.2
 	gorm.io/driver/sqlserver v1.5.1
@@ -98,6 +103,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/montanaflynn/stats v0.7.0 // indirect
 	github.com/mozillazg/go-httpheader v0.2.1 // indirect
+	github.com/opentracing/opentracing-go v1.2.1-0.20220228012449-10b1cf09e00b // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
@@ -109,6 +115,7 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.4.2 // indirect
+	github.com/tjfoc/gmsm v1.4.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.11 // indirect
 	github.com/tklauser/numcpus v0.6.0 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
