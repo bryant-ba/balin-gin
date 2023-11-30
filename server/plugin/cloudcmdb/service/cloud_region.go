@@ -1,14 +1,14 @@
 package service
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/utils/aliyun"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/utils/huawei"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/utils/tencent"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
+	"server/global"
+	"server/plugin/cloudcmdb/model"
+	"server/plugin/cloudcmdb/utils/aliyun"
+	"server/plugin/cloudcmdb/utils/huawei"
+	"server/plugin/cloudcmdb/utils/tencent"
 )
 
 type CloudRegionService struct{}

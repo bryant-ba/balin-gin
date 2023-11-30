@@ -2,16 +2,16 @@ package service
 
 import (
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model"
-	cloudcmdbreq "github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model/cloudcmdb"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/utils/aliyun"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/utils/huawei"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/utils/tencent"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
+	"server/global"
+	"server/model/common/request"
+	"server/plugin/cloudcmdb/model"
+	cloudcmdbreq "server/plugin/cloudcmdb/model/cloudcmdb"
+	"server/plugin/cloudcmdb/utils/aliyun"
+	"server/plugin/cloudcmdb/utils/huawei"
+	"server/plugin/cloudcmdb/utils/tencent"
 )
 
 type CloudLoadBalancerService struct{}

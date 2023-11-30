@@ -3,15 +3,15 @@ package system
 import (
 	"context"
 	"errors"
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"github.com/glebarez/sqlite"
 	"github.com/gofrs/uuid/v5"
 	"github.com/gookit/color"
 	"gorm.io/gorm"
 	"path/filepath"
+	"server/config"
+	"server/global"
+	"server/model/system/request"
+	"server/utils"
 )
 
 type SqliteInitHandler struct{}

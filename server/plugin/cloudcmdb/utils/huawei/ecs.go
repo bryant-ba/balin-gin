@@ -1,13 +1,13 @@
 package huawei
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model"
 	"github.com/huaweicloud/huaweicloud-sdk-go-v3/core/auth/basic"
 	ecs "github.com/huaweicloud/huaweicloud-sdk-go-v3/services/ecs/v2"
 	huaweimodel "github.com/huaweicloud/huaweicloud-sdk-go-v3/services/ecs/v2/model"
 	reg "github.com/huaweicloud/huaweicloud-sdk-go-v3/services/ecs/v2/region"
 	"go.uber.org/zap"
+	"server/global"
+	"server/plugin/cloudcmdb/model"
 	"strconv"
 	"strings"
 )

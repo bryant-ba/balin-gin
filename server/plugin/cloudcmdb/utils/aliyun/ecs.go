@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model"
 	"go.uber.org/zap"
+	"server/global"
+	"server/plugin/cloudcmdb/model"
 	"strings"
 )
 

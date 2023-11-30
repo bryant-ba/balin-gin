@@ -1,18 +1,18 @@
 package {{.Package}}
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-    "github.com/flipped-aurora/gin-vue-admin/server/model/{{.Package}}"
-    "github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-    {{.Package}}Req "github.com/flipped-aurora/gin-vue-admin/server/model/{{.Package}}/request"
-    "github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-    "github.com/flipped-aurora/gin-vue-admin/server/service"
+	"server/global"
+    "server/model/{{.Package}}"
+    "server/model/common/request"
+    {{.Package}}Req "server/model/{{.Package}}/request"
+    "server/model/common/response"
+    "server/service"
     "github.com/gin-gonic/gin"
     "go.uber.org/zap"
     {{- if .NeedValid }}
-    "github.com/flipped-aurora/gin-vue-admin/server/utils"
+    "server/utils"
     {{- else if .AutoCreateResource}}
-    "github.com/flipped-aurora/gin-vue-admin/server/utils"
+    "server/utils"
     {{- end }}
 )
 

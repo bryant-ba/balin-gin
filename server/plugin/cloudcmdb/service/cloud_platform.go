@@ -2,11 +2,11 @@ package service
 
 import (
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
+	"server/global"
+	"server/model/common/request"
+	"server/plugin/cloudcmdb/model"
 )
 
 type CloudPlatformService struct{}

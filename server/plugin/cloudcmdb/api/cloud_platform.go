@@ -1,13 +1,13 @@
 package api
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model"
-	cloudcmdbreq "github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model/cloudcmdb"
-	cloudutils "github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/utils"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"server/global"
+	"server/model/common/request"
+	"server/model/common/response"
+	"server/plugin/cloudcmdb/model"
+	cloudcmdbreq "server/plugin/cloudcmdb/model/cloudcmdb"
+	cloudutils "server/plugin/cloudcmdb/utils"
+	"server/utils"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"

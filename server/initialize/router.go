@@ -4,12 +4,12 @@ import (
 	swaggerFiles "github.com/swaggo/files"
 	"net/http"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/docs"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
-	"github.com/flipped-aurora/gin-vue-admin/server/router"
 	"github.com/gin-gonic/gin"
 	ginSwagger "github.com/swaggo/gin-swagger"
+	"server/docs"
+	"server/global"
+	"server/middleware"
+	"server/router"
 )
 
 // 初始化总路由

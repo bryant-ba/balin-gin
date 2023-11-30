@@ -1,13 +1,13 @@
 package api
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	cloudcmdbreq "github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model/cloudcmdb"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
+	"server/global"
+	"server/model/common/request"
+	"server/model/common/response"
+	cloudcmdbreq "server/plugin/cloudcmdb/model/cloudcmdb"
+	"server/utils"
 )
 
 type CloudLoadBalancerApi struct{}

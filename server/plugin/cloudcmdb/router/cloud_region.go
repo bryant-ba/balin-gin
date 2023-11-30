@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/api"
 	"github.com/gin-gonic/gin"
+	"server/middleware"
+	"server/plugin/cloudcmdb/api"
 )
 
 type CloudRegionRouter struct {

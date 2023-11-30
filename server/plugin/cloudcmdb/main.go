@@ -1,12 +1,12 @@
 package cloudcmdb
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	sysModel "github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/router"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/plugin-tool/utils"
 	"github.com/gin-gonic/gin"
+	"server/global"
+	sysModel "server/model/system"
+	"server/plugin/cloudcmdb/model"
+	"server/plugin/cloudcmdb/router"
+	"server/plugin/plugin-tool/utils"
 )
 
 type CloudCmdbPlugin struct {

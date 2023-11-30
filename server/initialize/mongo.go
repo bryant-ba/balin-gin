@@ -2,12 +2,12 @@ package initialize
 
 import (
 	"context"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/initialize/internal"
 	"github.com/pkg/errors"
 	"github.com/qiniu/qmgo"
 	"github.com/qiniu/qmgo/options"
 	"go.mongodb.org/mongo-driver/bson"
+	"server/global"
+	"server/initialize/internal"
 	"strings"
 )
 

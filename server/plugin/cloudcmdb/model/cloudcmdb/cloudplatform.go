@@ -1,8 +1,8 @@
 package cloudcmdb
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/cloudcmdb/model"
+	"server/model/common/request"
+	"server/plugin/cloudcmdb/model"
 )
 
 type SearchCloudPlatformParams struct {
